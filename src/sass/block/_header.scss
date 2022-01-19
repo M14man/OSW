@@ -1,22 +1,22 @@
 .menu-bar {
     min-height: 46px;
     &__adr {
-        min-height: 46px;
+        // min-height: 46px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     &__loc {
-        min-height: 46px;
+        // min-height: 46px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     &__wrapper {
-        min-height: 46px;
+        // min-height: 46px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
     }
     &__icons {
         list-style: none;
@@ -34,6 +34,9 @@
         font-size: 13px;
         line-height: 15px;
         color: #000000;
+        &:hover {
+            color: #76a713;
+        }
     }
     &__img-mail {
         margin-right: 7px;
@@ -49,6 +52,9 @@
         line-height: 15px;
         color: #000000;
         padding: 0;
+        &:hover {
+            color: #76a713;
+        }
     }
     &__link-social {
         display: flex;
@@ -66,4 +72,36 @@
     font-size: 13px;
     line-height: 15px;
     color: #000000;
+}
+
+.second-menu {
+    min-height: 100px;
+    &__links {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        text-decoration: none;
+        margin: 0 15px;
+        &:hover {
+            color: #76a713;
+        }
+    }
+    &__lin {
+        text-decoration: none;
+        margin: 0 5px;
+    }
+    &__last-col {
+        display: flex;
+        justify-content: end;
+    }
+    &__logo {
+        width: 100%;
+    }
+}
+.hr-first {
+    margin: 0;
+    border-bottom: solid 1px #eeeeee;
 }

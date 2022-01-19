@@ -11,56 +11,87 @@
 </head>
 <body>
     <div class="container">
-        <header class="row menu-bar gy-2 align-items-center">
-            <div class="col-sm-4 col-lg-2 menu-bar__adr">
-                <img class="menu-bar__img-loc" src="icons/location.svg" alt="location">
-                <address class="addres">
-                    <div>15/A, Nest Tower, NYC</div>
-                </address>
-            </div>
-            <div class="col-sm-3 col-lg-2 menu-bar__loc">
-                <img class="menu-bar__img-mail" src="icons/mail.svg" alt="mail">
-                <a class="menu-bar__email" href="meilto:info@webmail.com">info@webmail.com</a>
-            </div>
-            <div class="col-sm-3 offset-sm-2 col-lg-2 offset-lg-5 menu-bar__ico">
-                <div class="menu-bar__wrapper">
-                    <div class="nav-item dropdown dropp">
-                    <a class="menu-bar__MY nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        English
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Українська</a></li>
-                        <li><a class="dropdown-item" href="#">Русский язик</a></li>
-                        <li><a class="dropdown-item" href="#">English</a></li>
-                    </ul>
+        <header>
+            <div class="row menu-bar gy-2 align-items-center">
+                <div class="col-sm-4 col-lg-2 menu-bar__adr">
+                    <img class="menu-bar__img-loc" src="icons/location.svg" alt="location">
+                    <address class="addres">
+                        <a class="menu-bar__email" href="#">15/A, Nest Tower, NYC</a>
+                    </address>
                 </div>
-                <ul class="menu-bar__icons">
-                    <li class="menu-bar__icon">
-                        <a class="menu-bar__link-social" href="#">
-                            <img src="icons/facebook.svg" alt="menu-bar">
-                        </a>
-                    </li>
-                    <li class="menu-bar__icon">
-                        <a class="menu-bar__link-social" href="#">
-                            <img src="icons/twitter.svg" alt="twitter">
-                        </a>
-                    </li>
-                    <li class="menu-bar__icon">
-                        <a class="menu-bar__link-social" href="#">
-                            <img src="icons/instagram.svg" alt="instagram">
-                        </a>
-                    </li>
-                    <li class="menu-bar__icon">
-                        <a class="menu-bar__link-social" href="#">
-                            <img src="icons/in.svg" alt="in">
-                        </a>
-                    </li>
-                </ul>
+                <div class="col-sm-3 col-lg-2 menu-bar__loc">
+                    <img class="menu-bar__img-mail" src="icons/mail.svg" alt="mail">
+                    <a class="menu-bar__email" href="mailto:info@webmail.com">info@webmail.com</a>
                 </div>
-            </div>
+                <div class="col-sm-3 offset-sm-2 col-lg-3 offset-lg-5 menu-bar__ico">
+                    <div class="menu-bar__wrapper">
+                        <div class="nav-item dropdown dropp">
+                            <a class="menu-bar__MY nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Українська</a></li>
+                                <li><a class="dropdown-item" href="#">Русский язик</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                            </ul>
+                        </div>
+                        <ul class="menu-bar__icons">
+                            <li class="menu-bar__icon">
+                                <a class="menu-bar__link-social" href="#">
+                                    <img src="icons/facebook.svg" alt="menu-bar">
+                                </a>
+                            </li>
+                            <li class="menu-bar__icon">
+                                <a class="menu-bar__link-social" href="#">
+                                    <img src="icons/twitter.svg" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="menu-bar__icon">
+                                <a class="menu-bar__link-social" href="#">
+                                    <img src="icons/instagram.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li class="menu-bar__icon">
+                                <a class="menu-bar__link-social" href="#">
+                                    <img src="icons/in.svg" alt="in">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             
+            </div>
         </header>
+    </div>
+    <hr class="hr-first">
+    <div class="container">
+        <header>
+            <div class="row second-menu align-items-center">
+                <div class="col-3">
+                    <a href="#">
+                        <img class="second-menu__logo" src="icons/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-5 offset-1">
+                    <a class="second-menu__links" href="#">Home +</a>
+                    <a class="second-menu__links" href="#">About +</a>
+                    <a class="second-menu__links" href="#">Shop +</a>
+                    <a class="second-menu__links" href="#">Page +</a>
+                    <a class="second-menu__links" href="#">Contact</a>
+                </div>
+                <div class="col-3 second-menu__last-col">
+                    <button class="button button_mini">Login</button>
+                    <a class="second-menu__lin" href="#">
+                        <img src="icons/search.png" alt="search">
+                    </a>
+                    <a class="second-menu__lin" href="#">
+                        <img src="icons/cart.png" alt="cart">
+                    </a>
+                </div>
+            </div>
+        </header>
+        
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
