@@ -1,0 +1,104 @@
+.menu-bar {
+    min-height: 46px;
+    &__adr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__loc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    &__icons {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    &__icon {
+        margin: 0 10px;
+    }
+    &__email {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #000000;
+        &:hover {
+            color: #76a713;
+        }
+    }
+    &__img-mail {
+        margin-right: 7px;
+    }
+    &__img-loc {
+        margin-right: 7px;
+    }
+    &__MY {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #000000;
+        padding: 0;
+        &:hover {
+            color: #76a713;
+        }
+    }
+    &__link-social {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+}
+
+.addres {
+    display: block;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.second-menu {
+    min-height: 100px;
+    &__links {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        text-decoration: none;
+        margin: 0 15px;
+        &:hover {
+            color: #76a713;
+        }
+    }
+    &__lin {
+        text-decoration: none;
+        margin: 0 5px;
+    }
+    &__last-col {
+        display: flex;
+        justify-content: end;
+    }
+    &__logo {
+        width: 220px;
+    }
+}
+.hr-first {
+    margin: 0;
+    border-bottom: solid 1px #eeeeee;
+}

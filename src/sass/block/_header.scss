@@ -1,107 +1,30 @@
-.menu-bar {
-    min-height: 46px;
-    &__adr {
-        // min-height: 46px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    &__loc {
-        // min-height: 46px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    &__wrapper {
-        // min-height: 46px;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-    }
-    &__icons {
-        list-style: none;
-        display: flex;
-        padding: 0;
-        margin: 0;
-    }
-    &__icon {
-        margin: 0 10px;
-    }
-    &__email {
-        font-family: "Roboto";
+.header {
+    min-height: 600px;
+    background-image: url(../../img/header-BG.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    overflow: hidden;
+    padding: 63px 0 0 0;
+    &__title {
+        font-family: Oswald;
         font-style: normal;
         font-weight: 500;
-        font-size: 13px;
-        line-height: 15px;
-        color: #000000;
-        &:hover {
-            color: #76a713;
-        }
+        font-size: 75px;
+        line-height: 119px;
+        color: #191d28;
+        text-transform: uppercase;
+        margin-bottom: 25px;
     }
-    &__img-mail {
-        margin-right: 7px;
+    &__word {
+        color: green;
     }
-    &__img-loc {
-        margin-right: 7px;
+    &__img {
+        display: inline-block;
+        margin-left: -55px;
     }
-    &__MY {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 15px;
-        color: #000000;
-        padding: 0;
-        &:hover {
-            color: #76a713;
-        }
-    }
-    &__link-social {
+    &__second-col {
         display: flex;
-        align-items: start;
-        justify-content: center;
+        align-items: center;
     }
-}
-
-.addres {
-    display: block;
-    margin: 0;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 15px;
-    color: #000000;
-}
-
-.second-menu {
-    min-height: 100px;
-    &__links {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 19px;
-        color: #000000;
-        text-decoration: none;
-        margin: 0 15px;
-        &:hover {
-            color: #76a713;
-        }
-    }
-    &__lin {
-        text-decoration: none;
-        margin: 0 5px;
-    }
-    &__last-col {
-        display: flex;
-        justify-content: end;
-    }
-    &__logo {
-        width: 100%;
-    }
-}
-.hr-first {
-    margin: 0;
-    border-bottom: solid 1px #eeeeee;
 }

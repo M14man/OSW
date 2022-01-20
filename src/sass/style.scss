@@ -12,5 +12,9 @@ body {
     margin: 0;
 }
 
+@import "block/menu-bar";
+@import "block/buttons";
 @import "block/header";
-@import "block/buttons"
+@import "block/fetured";
+@import "block/about-us";
+@import "block/categories";
