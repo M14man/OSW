@@ -1,0 +1,41 @@
+.subscribe {
+    &__block {
+        height: 250px;
+        background: #76a713;
+        text-align: center;
+    }
+    &__title {
+        margin-top: 48px;
+        font-family: Oswald;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 89px;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__img {
+        margin-top: -120px;
+        margin-left: -66px;
+    }
+    &__img-arrow {
+        margin-bottom: -250px;
+        margin-left: 45px;
+    }
+    &__input {
+        width: 370px;
+        height: 29px;
+        border: none;
+        border-bottom: 1px solid #9ad523;
+        background: #76a713;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.6);
+        outline: none;
+        margin-right: 35px;
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+}
