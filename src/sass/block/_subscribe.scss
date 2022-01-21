@@ -1,9 +1,12 @@
 .subscribe {
-    &__block {
-        height: 250px;
-        background: #76a713;
-        text-align: center;
-    }
+    position: absolute;
+    top: -115px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    background: #76a713;
+    text-align: center;
+    width: 1200px;
     &__title {
         margin-top: 48px;
         font-family: Oswald;
