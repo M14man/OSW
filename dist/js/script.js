@@ -6,4 +6,5 @@ $(document).ready(function () {
       .closest('div.container').find('div.products__content').removeClass('products__content_active').eq($(this).index()).addClass('products__content_active');
     });
 
+    new WOW().init();
 });

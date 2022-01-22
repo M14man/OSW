@@ -107,7 +107,7 @@
         font-size: 50px;
     }
     .about-us__rotate-text {
-        left: 115px;
+        left: 50px;
     }
     .about-us {
         background-image: none;
@@ -367,10 +367,13 @@
         margin-left: 20px;
     }
     .featured__img {
-        margin: 0;
-        margin-left: 40px;
+        margin-left: 37px;
+        margin-top: -52px;
     }
     .featured {
         padding: 0;
+    }
+    .featured__pb15px {
+        padding-bottom: 10px;
     }
 }
