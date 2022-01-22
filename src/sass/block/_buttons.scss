@@ -10,6 +10,9 @@
     line-height: 19px;
     color: #ffffff;
     text-transform: uppercase;
+    &:hover {
+        background-color: #619001;
+    }
     &_mini {
         width: 100px;
         height: 40px;
@@ -18,11 +21,17 @@
         width: 120px;
         height: 40px;
         background: #ff6600;
+        &:hover {
+            background-color: #e45b00;
+        }
     }
     &_blue {
         width: 120px;
         height: 40px;
         background: #3498db;
+        &:hover {
+            background-color: #0378c7;
+        }
     }
     &_products {
         width: 120px;
@@ -33,5 +42,8 @@
         width: 150px;
         height: 40px;
         background: #ff6600;
+        &:hover {
+            background-color: #e45b00;
+        }
     }
 }

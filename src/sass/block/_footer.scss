@@ -75,6 +75,10 @@
             line-height: 130%;
             color: #ffffff;
             margin-bottom: 5px;
+            text-decoration: none;
+            &:hover {
+                color: #76a713;
+            }
         }
         &__date {
             font-family: Roboto;
