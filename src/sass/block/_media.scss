@@ -1,3 +1,9 @@
+@media (max-width: 1250px) {
+    .subscribe {
+        width: 1150px;
+    }
+}
+
 @media (max-width: 1200px) {
     .footer__politic {
         margin: 0;
@@ -163,6 +169,30 @@
 }
 
 @media (max-width: 767px) {
+    .footer__wrapper {
+        padding-top: 140px;
+    }
+    .subscribe__title {
+        font-size: 37px;
+        line-height: 54px;
+    }
+    .subscribe__img-arrow {
+        margin-left: -335px;
+    }
+    .subscribe {
+        height: 210px;
+        width: 535px;
+    }
+    .subscribe__img {
+        display: none;
+    }
+    .offer__img img {
+        width: 350px;
+        display: block;
+    }
+    .header__mt10px {
+        margin-top: 10px;
+    }
     .offer__wrapper {
         height: 230px;
     }
@@ -279,8 +309,8 @@
     }
     .subscribe__title {
         margin-bottom: 35px;
-        line-height: 35px;
-        font-size: 35px;
+        line-height: 32px;
+        font-size: 32px;
     }
     .subscribe__img {
         display: none;
@@ -299,7 +329,6 @@
         background: #76a713;
         text-align: center;
         margin: 5px 0;
-        // border: 2px solid black;
     }
     .blog__title {
         font-size: 50px;
@@ -309,7 +338,7 @@
     }
     .offer__img img {
         height: 180px;
-        width: 200px;
+        width: 180px;
     }
     .offer__wrapper::after {
         display: none;
@@ -375,5 +404,57 @@
     }
     .featured__pb15px {
         padding-bottom: 10px;
+    }
+    .button_subscr {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 374px) {
+    .second-menu__links {
+        width: 275px;
+    }
+    .header__img {
+        height: 285px;
+    }
+    .featured__img {
+        width: 250px;
+        margin-left: 3px;
+        margin-top: -52px;
+    }
+    .featured__img-2 {
+        width: 250px;
+        margin-left: 0px;
+        height: 180px;
+    }
+    .offer__wrapper::before {
+        display: none;
+    }
+    .offer__img img {
+        height: 130px;
+        width: 140px;
+    }
+    .button {
+        width: 151px;
+        height: 45px;
+    }
+    .offer__left-side {
+        padding-left: 10px;
+    }
+    .blog {
+        margin-top: 0;
+        padding: 30px 0 30px 0;
+    }
+    .blog-item__title {
+        font-size: 25px;
+    }
+    .subscribe {
+        width: 279px;
+    }
+    .subscribe__title {
+        line-height: 26px;
+        font-size: 27px;
+    }
+    .subscribe__input {
+        padding: 0 35px;
     }
 }
